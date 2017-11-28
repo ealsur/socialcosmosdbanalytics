@@ -67,6 +67,9 @@ namespace cosmoschat
             DocumentCollection resultsCollection = new DocumentCollection();
             resultsCollection.Id = "results";
             await documentClient.CreateDocumentCollectionIfNotExistsAsync(databaseUri, resultsCollection, new RequestOptions() { OfferThroughput = 400 });
+            DocumentCollection leasesCollection = new DocumentCollection();
+            leasesCollection.Id = "leases";
+            await documentClient.CreateDocumentCollectionIfNotExistsAsync(databaseUri, leasesCollection, new RequestOptions() { OfferThroughput = 400 });
         }
     }
 }
