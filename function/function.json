@@ -5,7 +5,7 @@
       "name": "input",
       "direction": "in",
       "leaseCollectionName": "leases",
-      "connectionStringSetting": "linesTrigger_ConnectionString",
+      "connectionStringSetting": "postsTrigger_ConnectionString",
       "databaseName": "social",
       "collectionName": "posts",
       "createLeaseCollectionIfNotExists": true
@@ -16,7 +16,7 @@
       "name": "results",
       "databaseName": "social",
       "collectionName": "results",
-      "connection": "linesTrigger_ConnectionString",
+      "connection": "postsTrigger_ConnectionString",
       "createIfNotExists": false
     }
   ]
