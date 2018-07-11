@@ -1,5 +1,7 @@
 # Azure Cosmos DB social analytics sample
 
+>**New** and updated sample of this scenario [here](https://github.com/ealsur/serverless-recipes/tree/master/cosmosdbtrigger).
+
 This sample repository shows a simple social network where posts are stored in [Azure Cosmos DB](https://azure.microsoft.com/services/cosmos-db/), and as soon as data is inserted, it leverages [Azure Function's CosmosDBTrigger](https://docs.microsoft.com/azure/azure-functions/functions-create-cosmos-db-triggered-function) to analyze the text with [Azure Cognitive Text Analytics API](https://azure.microsoft.com/services/cognitive-services/text-analytics/) and obtain insights on the user's intention.
 
 > For more information regarding **serverless architectures** with Azure Cosmos DB and Azure Functions, please visit the [complete article](https://docs.microsoft.com/azure/cosmos-db/serverless-computing-database).
